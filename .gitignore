@@ -1,0 +1,7 @@
+echo "__pycache__/
+*.pyc
+*.pt
+*.png
+*.json
+outputs/
+.DS_Store" > .gitignore

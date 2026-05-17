@@ -1,0 +1,16 @@
+name: dates_generator
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch>=2.0
+  - torchvision
+  - torchaudio
+  - cpuonly                   # remove this line and add cudatoolkit if GPU is available
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+      - tqdm
